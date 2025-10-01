@@ -1,0 +1,53 @@
+export const pricingPlans = [
+  {
+    id: 'free',
+    name: 'Free',
+    price: 0,
+    priceId: null,
+    description: 'Perfect for getting started',
+    features: [
+      'Track up to 3 cryptocurrencies',
+      'Basic portfolio overview',
+      '24h price changes',
+      'Email support',
+    ],
+    limitations: [
+      'Limited to 3 assets',
+      'No advanced analytics',
+      'No API access',
+    ],
+  },
+  {
+    id: 'pro',
+    name: 'Pro',
+    price: 9.99,
+    priceId: 'price_1Q2w3e4r5t6y7u8i9o0p',
+    description: 'For serious crypto investors',
+    features: [
+      'Track unlimited cryptocurrencies',
+      'Advanced analytics & charts',
+      'Real-time price alerts',
+      'Portfolio performance tracking',
+      'Tax reporting tools',
+      'Priority support',
+    ],
+    limitations: [],
+  },
+  {
+    id: 'premium',
+    name: 'Premium',
+    price: 19.99,
+    priceId: 'price_2Q3w4e5r6t7y8u9i0o1p',
+    description: 'Professional-grade tools',
+    features: [
+      'Everything in Pro',
+      'AI-powered insights',
+      'Advanced portfolio optimization',
+      'Multi-exchange integration',
+      'API access',
+      'Dedicated support',
+      'Custom integrations',
+    ],
+    limitations: [],
+  },
+]
